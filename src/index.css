@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #2f2b2b;
+  color: white;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  padding: 0 32px 32px 32px;
+}
+
+.top-bar {
+  position: sticky;
+  top: 0;
+  padding: 24px 0;
+  background-color: #2f2b2b;
+}
+
+.search-bar {
+  margin: 24px auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-bar input {
+  width: 100%;
+  font-size: 1.8em;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.result-box {
+  margin: 0 auto 16px auto;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.result-box pre {
+  background-color: #616161;
+}
+
+.result-box pre code {
+  width: 100%;
+  padding: 8px;
+  display: block;
+  font-size: 1.4em;
+  text-align: left;
+}
