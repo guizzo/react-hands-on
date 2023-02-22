@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# React Hands-on
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+## Welcome
 
-## Available Scripts
+Hello Namirials 👋
 
-In the project directory, you can run:
+Let me introduce myself, I'm Simone "[guizzo](https://github.com/guizzo)" Gizzi, Senior Software Engineer at [Algo AI](https://algointerview.it/), and today I'll be your guide on React 🤗
 
-### `npm start`
+<p align="center">
+  <img width="50%" src="https://media.makeameme.org/created/hello-everyone-5b1ccf.jpg">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About this repo
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+As with all technologies, there would be much to say and explore, but today we will focus on the core aspects of the library, in order to allow you to be operational as quickly as possible.
 
-### `npm test`
+For the occasion I thought of preparing this repository; inside you will find an example application, very simple, which however highlights some of the peculiarities of the library, such as for example the management of the state of the components, the input props, the event handlers and an example of an http call to an external resource.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <img width="50%" src="https://ih1.redbubble.net/image.3548411287.9676/st,small,507x507-pad,600x600,f8f8f8.jpg">
+</p>
 
-### `npm run build`
+React clearly has much more to offer, but considering the time available for this session, I therefore preferred to focus on the aspects that I think are fundamental for working with this library nowadays.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+First thing first, open a terminal session and clone this repo, like this:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```shell
+$ git clone git@github.com:guizzo/react-hands-on.git
+```
 
-### `npm run eject`
+Once cloned, move inside the project folder:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```shell
+$ cd react-hands-on
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+then install the project dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```shell
+$ npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+and finally, run the project to see it in your browser:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```shell
+$ npm start
+```
