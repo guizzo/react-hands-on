@@ -5,18 +5,26 @@ const { REACT_APP_API_BASE_URL } = process.env;
 
 const App = () => {
 
+  // textarea state
   const [ text, setText ] = useState<string>('');
+
+  // loading state
   const [ loading, setLoading ] = useState<boolean>(false);
+
+  // api result state
   const [ result, setResult ] = useState<any>(undefined);
 
+  // searchbar value change handler
   const textChangeHandler = (e: ChangeEvent<HTMLInputElement>): void => setText(e.target.value);
 
+  // searchbar keypress handler
   const keyPressHandler = (e: KeyboardEvent<HTMLInputElement>): void => {
     if (e.key === "Enter") {
       retrieveData();
     }
   };
 
+  // search submit handler
   const retrieveData = async (): Promise<void> => {
     let result: any = undefined;
     setResult(result);
