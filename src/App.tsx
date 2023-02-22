@@ -19,7 +19,7 @@ const App = () => {
 
   // searchbar keypress handler
   const keyPressHandler = (e: KeyboardEvent<HTMLInputElement>): void => {
-    if (e.key === "Enter") {
+    if (e.key === "Enter" && !loading) {
       retrieveData();
     }
   };
